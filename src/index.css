@@ -1,0 +1,25 @@
+ @font-face {
+    font-family: 'MiFuente'; /* Nombre que le das a la fuente */
+    src: url('src/fonts/Starjout.ttf') format('truetype'); /* Ruta relativa al archivo .ttf */
+    font-weight: normal;
+    font-style: normal;
+}
+.logo{
+    width: 4rem;
+}
+.card-img-top{
+    width: 100%;
+    height: 60%;
+}
+.fa-star{
+    font-size: 30px;
+    color: rgb(63, 111, 241);
+}
+.sidelist{
+    position: fixed;
+}
+*{
+    font-family: MiFuente;
+    font-weight: bold;
+}
+
